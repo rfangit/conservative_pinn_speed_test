@@ -1,0 +1,18 @@
+# Ignore Jupyter Notebook checkpoints and files
+.ipynb_checkpoints/
+*.ipynb
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore all files inside 'test' or 'train' directories
+test/*
+train/*
+
+# Other common ignores (optional)
+.DS_Store       # macOS
+.vscode/        # VS Code
+.idea/          # PyCharm
+*.log           # Log files
