@@ -1,9 +1,11 @@
 <h1 align='center'> Do Conservative PINNs Train Faster In High Dimensions?
-    [<a href="https://rfangit.github.io/blog/">Blog</a> </h1>]
+    [<a href="https://rfangit.github.io/blog/">Blog</a> ]</h1>
 
 <p align="center">
 <img align="middle" src="./figs/dense_256_losses.png" width="666" />
 </p>
+
+**NOTE**: Still in progress! All the code + results are here, but I will be cleaning up this readme and the file structure a little over this week.
 
 Code repository + results for experiments on a neural network with a built-in bias to produce conservative vector fields. The purpose of these experiments was to determine if such neural networks will train faster than a baseline neural network thanks to their inductive bias.
 
@@ -28,10 +30,10 @@ The experiment folders are named according to {Experimental Regime}{Network Hidd
 
 Inside each folder are several folders and notebooks
 
--**consolidated images**: plots of the loss curves
--**consolidated text files**: raw data for generating curves
--**datasets**: data for the vector field
--**DataPlot.ipynb**: example on plotting data from the text files
--**Experiments.ipynb**: code for training a baseline and conservative network on the data. Does not run unless you first run Generate_Dataset
--**Generate_Dataset.ipynb**: code for generating the underlying vector field, and then sampling at $10000$ points to produce training and test data. To run this code, you must run the second cell of this notebook to produce the training and test points.
+- **consolidated images**: plots of the loss curves
+- **consolidated text files**: raw data for generating curves
+- **datasets**: data for the vector field
+- **DataPlot.ipynb**: example on plotting data from the text files
+- **Experiments.ipynb**: code for training a baseline and conservative network on the data. Does not run unless you first run Generate_Dataset
+- **Generate_Dataset.ipynb**: code for generating the underlying vector field, and then sampling at $10000$ points to produce training and test data. To run this code, you must run the second cell of this notebook to produce the training and test points.
 
