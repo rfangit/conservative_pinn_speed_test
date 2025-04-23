@@ -1,11 +1,11 @@
 <h1 align='center'> Do Conservative PINNs Train Faster In High Dimensions?
-    [<a href="https://rfangit.github.io/blog/">Blog</a> </h1>
+    [<a href="https://rfangit.github.io/blog/">Blog</a> </h1>]
 
 <p align="center">
-<img align="middle" src="./imgs/main.png" width="666" />
+<img align="middle" src="./figs/dense_256_losses.png" width="666" />
 </p>
 
-A code repository for experiments that show networks built to to output conservative vector fields train faster than baseline networks on a toy conservative vector flow problem in sufficiently high dimensions. However, the speedup is only modest even at high dimension.
+A code repository for experiments that show networks built to output conservative vector fields train faster than baseline networks on a toy conservative vector flow problem in sufficiently high dimensions. However, the speedup is only modest even at high dimension.
 
 ----
 
