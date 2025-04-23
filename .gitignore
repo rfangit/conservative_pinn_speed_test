@@ -2,8 +2,8 @@
 .ipynb_checkpoints/
 
 # Ignore all files inside 'test' or 'train' directories
-test/*
-train/*
+**/test/*
+**/train/*
 
 # Ignore all files inside folders starting with 'loss_plots'
-loss_plots*/*
+**/loss_plots/*
