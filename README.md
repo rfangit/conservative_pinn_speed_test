@@ -5,8 +5,6 @@
 <img align="middle" src="./figs/dense_256_losses.png" width="666" />
 </p>
 
-**NOTE**: Still in progress! All the code + results are here, but I will be cleaning up this readme and the file structure a little over this week.
-
 Code repository + results for experiments on a neural network with a built-in bias to produce conservative vector fields. The purpose of these experiments was to determine if such neural networks will train faster than a baseline neural network thanks to their inductive bias.
 
 Unlike past results, these experiments focus on the regime where the dimension of the problem is very high, and we find small improvements in the training speed compared to the baseline for problems with dimension $d \geq 8$.
@@ -24,7 +22,7 @@ The code in this repository allows anyone to replicate the experiments, generati
 - **Experiments (Non-conservative Fields)**: Code and results for experiments with non-conservative vector fields to show results obtained are due to the built-in conservative vector field bias.
 - **figs**: Code for generating figures, as well as finished figures.
 
-### Organization of Experiments
+## Organization of Experiments
 
 The experiment folders are named according to {Experimental Regime}{Network Hidden Layers}, where eg. dense corresponds to the underlying vector field formed from a dense region of Gaussian centers, and 64 64 64 corresponds to 3 hidden layers of 64 neurons.
 
@@ -39,6 +37,6 @@ Inside each folder are several folders and notebooks
 
 For nonconservative experiments, an additional parameter is used in **Generate_Dataset.ipynb** which multiplies the vector field by a linear transformation beforehand, destroying the conservative property. An example of how this works is included in **Nonconservative Transformation Example.ipynb**.
 
-### Figs
+## Figs
 
 On top of code to generate the figures, there also exists code to compute the actual computational time cost of conservative networks and the ratio of losses per epoch.
